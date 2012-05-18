@@ -1,0 +1,16 @@
+Testsuite: PriceTest
+Tests run: 13, Failures: 0, Errors: 0, Time elapsed: 0.071 sec
+
+Testcase: return_80_if_list_is_AB took 0.001 sec
+Testcase: return_190_if_list_is_AAABBD took 0 sec
+Testcase: return_190_if_list_is_DABABA took 0 sec
+Testcase: return_115_if_list_is_CDBA took 0 sec
+Testcase: return_230_if_list_is_AAAAA took 0 sec
+Testcase: return_100_if_list_is_AA took 0 sec
+Testcase: return_175_if_list_is_AAABB took 0 sec
+Testcase: return_160_if_list_is_AAAB took 0.001 sec
+Testcase: return_130_if_list_is_AAA took 0 sec
+Testcase: return_50_if_list_is_A took 0 sec
+Testcase: return_180_if_list_is_AAAA took 0 sec
+Testcase: return_0_if_list_is_nothing took 0 sec
+Testcase: return_260_if_list_is_AAAAAA took 0 sec
