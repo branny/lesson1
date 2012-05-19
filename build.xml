@@ -2,14 +2,11 @@
  
 <project name="project" default="junit">
  
-         <property name="test.classpath" value="bin"></property>
- <!--
-         <property name="run.srcpath" value="src"></property>
-		 -->
+         <property name="test.classpath" value="bin"/>
  
-         <property name="test.srcpath" value="src"></property>
+         <property name="test.srcpath" value="src"/>
         
-         <property name="test.report" value="report"></property>
+         <property name="test.report" value="report"/>
         
          <property name="lib.dir" value="lib"/>   
  
@@ -46,13 +43,8 @@
                              <include name="**/*.jar"/>
                         </fileset>
 					</classpath>
-                           
-					<!--
-						<test name="Ldbs1AdslSectionBaseinfoModelServiceTest"></test>
-					-->
-					<formatter type="plain"/>
 
-					<!-- she zhi yao ce shi de wen jian ji he .-->
+
 					<batchtest fork="yes" todir="${test.report}/framework-${DSTAMP}-${TSTAMP}">
 						<fileset dir="${test.srcpath}">
 							<include name="PriceTest.java"/>
